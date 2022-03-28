@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    function getPic() {
+        //这里填入图片名
+        var picName = "aaa";
+        document.getElementById("pic").src="http://localhost:8085/Web/Hello/getPic?pic="+picName;
+    }
+</script>
+<body>
+<img src="" type="image/jpeg" id="pic" width="200px" height="200px"/>
+<button onclick="getPic()">获得图片</button>
+</body>
+</html>
